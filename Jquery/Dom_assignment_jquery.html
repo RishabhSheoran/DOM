@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery-3.1.1.min.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="index_final.css">
+ 	<title> Dom Assignment</title>
+</head>
+	<body>
+		<header>
+			<div>
+				<ul class="header div ul">
+
+					<ul class="leftListHeader">
+						<li class="logo"><image src="images/appdirect_logo.png" height="30px" width="30px"></image></li>
+						<li class="header-text"><a href="#">MyApps</a></li>
+						<li class="header-text"><a href="#">Marketplace</a></li>
+					</ul>
+					<ul class="rightListHeader">
+						<li class="left-text-header"><a href="#">Account</a></li>
+						<li class="right-text-header">
+							<input type="button" id="dropdown" name="dropdown" value="Rishabh Sheoran ▼" onclick="showDropdown()">
+							<ul>
+								<!-- <li></li>
+								<li></li>
+								<li></li>
+								<li></li> -->
+							</ul>
+						</li>
+					</ul>
+				</ul>
+			</div>
+		</header>
+		<div class="parent">
+			<div class="main1">
+				<form id="form1">
+					<ul>
+						<li class="bodyCenter"> Registration Page </li>
+						<li><label>First Name</label> <input type="text" id="firstName" class="inputbox" ></li>
+						<li><label>Last Name</label> <input type="text" id="lastName" class="inputbox"></li>
+						<li><label>Address (P)</label> <input type="text" id="addressP" class="inputbox" ></li>
+						<li class="bodyCenter"><input type="checkbox" id="cop"></li>
+						<li><label>Address (C)</label> <input type="text" id="addressC" class="inputbox"></li>
+						<li><label>Email-id</label> <input type="text" id="emailId" class="inputbox"</li>
+						<li><label>Phone No.</label> <input type="text" id="phone" class="inputbox"></li>
+						<li><label>Password</label> <input type="password" id="password" class="inputbox" onselectstart='return false;'></li>
+						<li><label class="confirmPassword">Confirm Password</label> <input type="password" id="repassword" class="inputbox"></li>
+						<br/>
+						<li class="bodyCenter">
+							<input type="button" class="button reset-button" value="Reset" id="reset">
+							<input type="button" class="button register-button"  value="Register" disabled="true" id="register">
+						</li>	
+					</ul>
+				</form>
+			</div>
+			<div class="main2" id="userList">
+				<ul id="users">
+				<li class="bodyCenter">DashBoard</li>
+				</ul>
+			</div>
+		</div>
+		<br>
+
+		<hr>
+
+		<footer>
+			<div>
+				<ul class="footer div ul">
+					<ul class="leftListFooter">
+						<li class="logo-footer">
+							<img src="images/appdirect_footer.png" height="15x" width="15px">
+						</li>
+						<li class="left-text-footer">
+							<a href="#"> Powered By AppDirect ©2009-2017</a>
+						</li>
+
+					</ul>
+					<ul class="rightListFooter">
+						<li>
+							<select class="optgroup">
+							  <option value="english_us" class="optgroup">English (United States)</option>
+							  <option value="english_uk" class="optgroup">English (UK)</option>
+							  <option value="chinese" class="optgroup">Mandarin (China)</option>
+							  <option value="hindi" class="optgroup">Hindi (India)</option>
+							</select>
+						</li>
+						<li class="right-text-footer"><a href="#">Help Center</a>	</li>
+						<li class="right-text-footer"><a href="#">Privacy Policy</a>	</li>
+						<li class="right-text-footer"><a href="#">Terms and Conditions</a>	</li>
+						<li class="right-text-footer"><a href="#">Contact</a>	</li>
+						
+					</ul>
+				</ul>
+			</div>
+
+
+		</footer>
+		
+		<script type="text/javascript" src="form_jquery.js"></script>
+	</body>
+</html>

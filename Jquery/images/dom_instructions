@@ -1,0 +1,20 @@
+Instructions for DOM assignment
+1. Complete header and footer needs to be done
+2. Profile should be a dropdown in header
+3. Language dropdown should be there in footer
+4. Registration page should have all the validations (Register button should be disabled till all validations are done)
+  First name is compulsory (just a space or Tab not allowed)
+  Last name is optional
+  Address is compulsory
+  clicking on checkbox copies permanent address to current address
+  email-id is compulsory and should have email validations
+  phone number is compulsory and should have phone validations
+  Password should have minimum 1 special character, 1 number, 1 uppercase letter. no spaces allowed and minimum 8 characters.
+  Password and confirm password should be same.
+  Password should not be allowed to copy
+
+5. Reset button should clear all fields
+6. on clicking register page first name + last name (if not empty) should be appended in the dashboard list
+7.In Dashboard, container should scroll only if the user list exceeds the container height.
+8. on hover on name in dashboard email-id should be shown for that user.
+9. Add extra fields on registration page and its validation.
